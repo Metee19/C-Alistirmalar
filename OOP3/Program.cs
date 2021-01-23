@@ -20,7 +20,7 @@ namespace OOP3
 
 
             BasvuruManager basvuruManager = new BasvuruManager();
-            basvuruManager.BasvuruYap(konutKrediManager, databaseLoggerService);
+            basvuruManager.BasvuruYap(new EsnafKrediManager(), loggerServices);
 
             List<IKrediManager> krediler = new List<IKrediManager>() { ihtiyacKrediManager,tasitKrediManager,konutKrediManager };
 

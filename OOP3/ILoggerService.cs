@@ -6,6 +6,6 @@ namespace OOP3
 {
     interface ILoggerService
     {
-        void Log() { }
+        void Log();
     }
 }
